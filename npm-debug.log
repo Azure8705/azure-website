@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json chat-example@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'grunt', null ]
+7 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'grunt',
+8 verbose parsed url   path: 'grunt',
+8 verbose parsed url   href: 'grunt' }
+9 silly lockFile 20ff3fd8-grunt grunt
+10 verbose lock grunt /home/ubuntu/.npm/20ff3fd8-grunt.lock
+11 silly lockFile 20ff3fd8-grunt grunt
+12 silly lockFile 20ff3fd8-grunt grunt
+13 verbose addNamed [ 'grunt', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 55f1ff24-grunt grunt@
+16 verbose lock grunt@ /home/ubuntu/.npm/55f1ff24-grunt.lock
+17 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+18 verbose request where is /grunt
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id b9babb8b979caac2
+21 verbose url raw /grunt
+22 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+23 verbose url resolved https://registry.npmjs.org/grunt
+24 verbose request where is https://registry.npmjs.org/grunt
+25 info trying registry request attempt 1 at 18:24:31
+26 verbose etag "DY3H2D5S6BWOFN7K2OZHLQJ91"
+27 http GET https://registry.npmjs.org/grunt
+28 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+29 info trying registry request attempt 2 at 18:24:42
+30 verbose etag "DY3H2D5S6BWOFN7K2OZHLQJ91"
+31 http GET https://registry.npmjs.org/grunt
+32 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+33 info trying registry request attempt 3 at 18:25:43
+34 verbose etag "DY3H2D5S6BWOFN7K2OZHLQJ91"
+35 http GET https://registry.npmjs.org/grunt
+36 silly registry.get cb [ 304, undefined ]
+37 verbose etag https://registry.npmjs.org/grunt from cache
+38 silly addNameRange number 2 { name: 'grunt', range: '*', hasData: true }
+39 silly addNameRange versions [ 'grunt',
+39 silly addNameRange   [ '0.1.0',
+39 silly addNameRange     '0.1.1',
+39 silly addNameRange     '0.1.2',
+39 silly addNameRange     '0.2.0',
+39 silly addNameRange     '0.2.1',
+39 silly addNameRange     '0.2.2',
+39 silly addNameRange     '0.2.3',
+39 silly addNameRange     '0.2.4',
+39 silly addNameRange     '0.2.5',
+39 silly addNameRange     '0.2.6',
+39 silly addNameRange     '0.2.7',
+39 silly addNameRange     '0.2.8',
+39 silly addNameRange     '0.2.9',
+39 silly addNameRange     '0.2.10',
+39 silly addNameRange     '0.2.11',
+39 silly addNameRange     '0.2.12',
+39 silly addNameRange     '0.2.13',
+39 silly addNameRange     '0.2.14',
+39 silly addNameRange     '0.2.15',
+39 silly addNameRange     '0.3.0',
+39 silly addNameRange     '0.3.1',
+39 silly addNameRange     '0.3.2',
+39 silly addNameRange     '0.3.3',
+39 silly addNameRange     '0.3.4',
+39 silly addNameRange     '0.3.5',
+39 silly addNameRange     '0.3.6',
+39 silly addNameRange     '0.3.7',
+39 silly addNameRange     '0.3.8',
+39 silly addNameRange     '0.3.9',
+39 silly addNameRange     '0.3.10',
+39 silly addNameRange     '0.3.11',
+39 silly addNameRange     '0.3.12',
+39 silly addNameRange     '0.3.13',
+39 silly addNameRange     '0.3.14',
+39 silly addNameRange     '0.3.15',
+39 silly addNameRange     '0.3.16',
+39 silly addNameRange     '0.3.17',
+39 silly addNameRange     '0.4.0',
+39 silly addNameRange     '0.4.1',
+39 silly addNameRange     '0.4.2',
+39 silly addNameRange     '0.4.3',
+39 silly addNameRange     '0.4.4',
+39 silly addNameRange     '0.4.5',
+39 silly addNameRange     '0.3.13-a',
+39 silly addNameRange     '0.4.0-a',
+39 silly addNameRange     '0.4.0-rc1',
+39 silly addNameRange     '0.4.0-rc2',
+39 silly addNameRange     '0.4.0-rc3',
+39 silly addNameRange     '0.4.0-rc4',
+39 silly addNameRange     '0.4.0-rc5',
+39 silly addNameRange     '0.4.0-rc6',
+39 silly addNameRange     '0.4.0-rc7',
+39 silly addNameRange     '0.4.0-rc8' ] ]
+40 verbose addNamed [ 'grunt', '0.4.5' ]
+41 verbose addNamed [ '0.4.5', '0.4.5' ]
+42 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+43 verbose lock grunt@0.4.5 /home/ubuntu/.npm/81abf7ad-grunt-0-4-5.lock
+44 silly lockFile ea6cf2d1--npmjs-org-grunt-grunt-0-4-5-tgz https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+45 verbose lock https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz /home/ubuntu/.npm/ea6cf2d1--npmjs-org-grunt-grunt-0-4-5-tgz.lock
+46 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+46 verbose addRemoteTarball   '56937cd5194324adff6d207631832a9d6ba4e7f0' ]
+47 info retry fetch attempt 1 at 18:25:44
+48 verbose fetch to= /tmp/npm-1928-IyFCyROM/registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+49 http GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+50 error fetch failed https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+51 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+52 info retry fetch attempt 2 at 18:25:55
+53 verbose fetch to= /tmp/npm-1928-IyFCyROM/registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+54 http GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+55 error fetch failed https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+56 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+57 info retry fetch attempt 3 at 18:26:56
+58 verbose fetch to= /tmp/npm-1928-IyFCyROM/registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+59 http GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+60 error fetch failed https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+61 silly lockFile ea6cf2d1--npmjs-org-grunt-grunt-0-4-5-tgz https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+62 silly lockFile ea6cf2d1--npmjs-org-grunt-grunt-0-4-5-tgz https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+63 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+64 silly lockFile 81abf7ad-grunt-0-4-5 grunt@0.4.5
+65 silly lockFile 55f1ff24-grunt grunt@
+66 silly lockFile 55f1ff24-grunt grunt@
+67 error Error: connect ECONNREFUSED
+67 error     at errnoException (net.js:905:11)
+67 error     at Object.afterConnect [as oncomplete] (net.js:896:19)
+67 error  { [Error: connect ECONNREFUSED]
+67 error   code: 'ECONNREFUSED',
+67 error   errno: 'ECONNREFUSED',
+67 error   syscall: 'connect',
+67 error   parent: 'chat-example' }
+68 error If you are behind a proxy, please make sure that the
+68 error 'proxy' config is set properly.  See: 'npm help config'
+69 error System Linux 3.14.13-c9
+70 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "grunt"
+71 error cwd /home/ubuntu/workspace
+72 error node -v v0.10.35
+73 error npm -v 1.4.28
+74 error syscall connect
+75 error code ECONNREFUSED
+76 error errno ECONNREFUSED
+77 error stack Error: connect ECONNREFUSED
+77 error stack     at errnoException (net.js:905:11)
+77 error stack     at Object.afterConnect [as oncomplete] (net.js:896:19)
+78 verbose exit [ 1, true ]
