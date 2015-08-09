@@ -1,15 +1,16 @@
+Hi, this is a quick and simple Nodejs package that I'm starting with on Cloud9 IDE and am using to get a start on my portfolio. 
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+as of 8/8/15
 
+Included in package:
 
-Welcome to your Node.js project on Cloud9 IDE!
+- Node v0.12.7
+- Bootsrap v2.3.1
+- NPM v2.13.4
+- Yeoman
+- Grunt
+ 
 
-This chat example showcases how to use `socket.io` with a static `express` server.
 
 ## Running the server
 
